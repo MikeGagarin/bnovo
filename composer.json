@@ -1,0 +1,21 @@
+{
+    "name": "mike/bnovo",
+    "description": "Guests CRUD",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mike\\Bnovo\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail Migovich"
+        }
+    ],
+    "require": {
+      "ext-mbstring": "*",
+      "ext-pdo": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
